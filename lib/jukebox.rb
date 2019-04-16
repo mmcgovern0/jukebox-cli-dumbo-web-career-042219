@@ -28,7 +28,8 @@ end
 def play(songs)
   puts "Please enter a song name or number"
   requested_song = gets.chomp
-  if songs.include?()
+  if songs.include?(requested_song)
+    
 end
 
 def exit_jukebox
