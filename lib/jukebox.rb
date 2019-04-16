@@ -15,7 +15,7 @@ def help
 end
 
 def play(songs)
-  
+  songs.
   
 end
 
