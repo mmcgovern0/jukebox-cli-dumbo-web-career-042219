@@ -16,7 +16,7 @@ end
 
 def play(songs)
   songs.each_with_index do |song, i|
-    puts 
+    puts "#{i + 1}. #{song}."
   
 end
 
