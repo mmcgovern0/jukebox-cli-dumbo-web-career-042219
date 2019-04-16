@@ -45,5 +45,5 @@ def run
   input = ""
   while input
   puts "Please enter a command"
-  
+  input = gets.
 end
