@@ -48,5 +48,8 @@ def run
   input = gets.chomp
   case input
   when "list"
-    
+    list(songs)
+  when "play"
+    list(songs)
+    play(songs)
 end
