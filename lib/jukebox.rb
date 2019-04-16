@@ -42,5 +42,6 @@ def exit_jukebox
 end
 
 def run
-
+  input = ""
+  
 end
