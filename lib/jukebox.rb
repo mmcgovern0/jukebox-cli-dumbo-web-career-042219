@@ -46,5 +46,6 @@ def run
   while input
   puts "Please enter a command"
   input = gets.chomp
+  case input
   
 end
