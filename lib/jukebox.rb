@@ -45,5 +45,6 @@ def run
   input = ""
   while input
   puts "Please enter a command"
-  input = gets.
+  input = gets.chomp
+  
 end
