@@ -32,6 +32,9 @@ def play(songs)
     puts "Playing #{requested_song}"
   elsif (1..9).to_a.include?(requested_song.to_i)
     puts "Playing #{songs[requested_song.to_i - 1]}"
+  else
+    puts "Invalid input, please try again"
+  end
 end
 
 def exit_jukebox
