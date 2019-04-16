@@ -30,7 +30,7 @@ def play(songs)
   requested_song = gets.chomp
   if songs.include?(requested_song)
     puts "Playing #{requested_song}"
-  elsif (1..9).to_a.include?()
+  elsif (1..9).to_a.include?(requested_song)
 end
 
 def exit_jukebox
