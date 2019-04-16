@@ -43,5 +43,6 @@ end
 
 def run
   input = ""
+  while input
   
 end
